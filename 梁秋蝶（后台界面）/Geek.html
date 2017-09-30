@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geek</title>
+	<meta charset="utf-8" http-equiv="Content-Type">
+	<link rel="stylesheet" type="text/css" href="CSS/Geek.css">
+	<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="JS/Geek.js"></script>
+</head>
+<body>
+
+<!-- 整个界面变灰 -->
+<p id="backgr"></p>
+
+<!-- 头部和主体左边 -->
+<p class="head">
+	<h1 class="gk">Geek</h1>
+	<h3 class="hr">后台管理</h3>
+</p>
+<p class="mainT"></p>
+<p class="mainL">
+	<ul>
+		<li id="menber">工作室成员</li>
+		<li id="graduat">毕业去向</li>
+		<li id="show">作品展示</li>
+		<li id="join">加入我们</li>
+	</ul>
+</p>
+
+<p class="photo"><img src="images/photo.jpg"></p>
+<form class="search">
+	输入学号 <input type="text" name=""> 
+	<input type="submit" value="查询">
+</form>
+<p id="add"><button class="btn">添加成员</button></p>
+
+<!-- 动态加载表格 -->
+<div id="data"></div>
+
+<!-- 底部 -->
+<p class="foot">
+	<p class="produc">版权所有 | 重庆邮电大学 | 重庆市南岸区崇文路2号 | 极客网工作室 | 400065 <br><br>编辑 | Judy</p>
+</p>
+
+<!-- 添加弹出界面 -->
+<div id="ad">
+	<form id="editor"><br>
+		<p id="x">X</p>		
+		<input class="edit0" type="file" name="img" multiple="multiple"><br><br>
+		学号：<input id="edit1" type="text" placeholder="请输入学号" required="required"><br><br>
+		姓名：<input id="edit2" type="text" placeholder="请输入姓名" required="required"><br><br>
+		性别：<input id="edit3" type="text" placeholder="请输入性别" required="required"><br><br>
+		方向：<input id="edit4" type="text" placeholder="请输入技术方向" required="required"><br><br>	
+		简介：<textarea id="edit5" placeholder="请输入个人简介" required="required"></textarea><br><br>
+		<input id="save" type="submit" value="保存添加">
+	</form>
+</div>
+
+
+</body>
+</html>

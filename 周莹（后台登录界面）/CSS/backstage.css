@@ -1,0 +1,44 @@
+body{
+	width: 100%;
+	color: white;
+	background:#212f5e;
+	font-size: 22px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#text{
+	width: 60%;
+	float: left;
+	margin-top: 30%;
+	margin-left: 5%;
+}
+p{
+	margin-left: 24%;
+}
+#login{
+	/*position: absolute;*/
+	width: 30%;
+	float: right;
+	margin-top: 18%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 3%;
+	border: 1px solid white;
+	background:gray;
+	/*background: rgba(0,0,0.9);*/
+}
+form{
+	width: 100%;
+	line-height: 2.5em;
+}
+input{
+	width: 85%;
+	border-radius: 0.3em;
+	font-size: 20px;
+}
+#footer{
+	float: left;
+	margin-top: 10%;
+}
