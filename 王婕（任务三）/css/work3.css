@@ -1,0 +1,74 @@
+html,body{
+	margin: 0;
+	padding: 0;
+    font-family:宋体;
+}
+
+body{
+	width: 100%;
+}
+
+/*显示框*/
+
+#proFrame{
+	width: 98%;
+	height: 200px;
+	margin: 30px auto;
+	border:1px solid #0000ff ;
+}
+
+/*分页框*/
+
+#page{
+	height: 30px;
+	margin-left: 8px;
+	text-align: center;
+}
+
+/*具体页数*/
+
+#page ul{
+    float: left;
+    margin: 0 5px;
+    padding: 0;
+}  
+
+#page li {
+    width: 15px;
+    height: 20px;
+    float: left;
+    list-style-type: none;
+    border: 1px solid #212121;
+    margin-right: 5px;
+}
+
+/*被点击的页数框的状态*/
+
+.on{
+	background: #da90a4;
+} 
+
+/*首页、尾页、上一页、下一页以及跳转按钮*/
+
+a{
+	text-decoration: none;
+	color: #212121;
+	float: left;
+	margin-left: 5px;
+}
+
+/*跳转输入框*/
+
+#page input{
+	width: 25px;
+	float: left;
+}
+
+a:hover{
+	color: #da90a4;
+}
+
+li:hover{
+	color: red;
+	background: yellow;
+}
